@@ -99,6 +99,6 @@ def ar_maker_maker():
         cv2.imwrite(f'marker{i}.png', marker[i])
         
 if __name__ == "__main__":
-    img='./photos/WIN_20200318_17_03_04_Pro.jpg'
+    img='./photos/example1.jpg'
     outpath='./cutout'
     real_size_ar(image_file=img,output_path=outpath,size=None,ar_cut_position='edge')
