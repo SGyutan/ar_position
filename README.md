@@ -48,7 +48,7 @@ ARマーカーを4つ配置して、各ARマーカーの座標を読み取り画
 
 ar_libに関数がまとまっています。
 
-ArBase.image_show(image_file, posetime=2, image_save=False)
+`ArBase.image_show(image_file, posetime=2, image_save=False)`
 
 画像を表示する関数
 
