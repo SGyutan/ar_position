@@ -5,11 +5,11 @@ author: Gyutan
 
 ---
 
-###はじめに
+### はじめに
 カメラ画像からサンプル位置を自動推定する。
 ARマーカーを4つ配置して、各ARマーカーの座標を読み取り画像サイズ（ピクセル）を設定し、射影変換をすることにより実座標系における位置計測を行う。
 
-###参考
+### 参考
 [Python+OpenCVで、カメラ画像から机上の物体位置（実座標系）を計測してみる](https://qiita.com/code0327/items/c6e468da7007734c897f)
 
 
@@ -18,13 +18,13 @@ ARマーカ
 
 [ARマーカー認識プログラム](https://qiita.com/hsgucci/items/37becbb8bfe04330ce14)
 
-###環境と環境構築
+### 環境と環境構築
 試した環境
 Win10 Pro 64bit
 Anaconda
 Python3.7
 
-####モジュールインストール
+#### モジュールインストール
 opencv =version4以上  
 
 ```Python
@@ -41,7 +41,7 @@ pip install pyzbar
 
 ```
 
-###使い方
+### 使い方
 
 ARマーカーを4つ配置して、各ARマーカーの座標を読み取り画像サイズ（ピクセル）を設定し、射影変換をすることにより実座標系における位置計測を行う。
 
@@ -68,5 +68,5 @@ ArBase.real_size_ar_with_indicator(image_file,output_path='./data',size= (150,15
 テストコードは、test.ipynbファイルに記載しています。
 
 
-###その他
+### その他
 QRコードについてはqr_libに関数がまとまっています。
