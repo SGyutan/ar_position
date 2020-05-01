@@ -52,23 +52,23 @@ ar_libに関数がまとまっています。
 
 画像を表示する関数
 
-ArBase.qr_reader(image_file, posetime=2, image_save=False)
+`ArBase.qr_reader(image_file, posetime=2, image_save=False)`
 
 OpenCVによるQRコードを読む関数（QRコードは複数あるとエラーになる）
 
-ArBase.ar_marker_make(variety_num=4,output_dir='./marker')
+`ArBase.ar_marker_make(variety_num=4,output_dir='./marker')`
 
 ARマーカーを作成する関数
 
-ArBase.ar_find_overay(image_file, posetime=2, image_save=False)
+`ArBase.ar_find_overay(image_file, posetime=2, image_save=False)`
 
 ARマーカーを見つけて表示する関数
 
-ArBase.real_size_ar(image_file,output_path='./data',size=None,ar_cut_position='edge')
+`ArBase.real_size_ar(image_file,output_path='./data',size=None,ar_cut_position='edge')`
 
 4つあるARマーカーから射影変換を行い真上から見たイメージに変換する関数
 
-ArBase.real_size_ar_with_indicator(image_file,output_path='./data',size= (150,150),ar_cut_position='edge')
+`ArBase.real_size_ar_with_indicator(image_file,output_path='./data',size= (150,150),ar_cut_position='edge')`
 
 4つのARマーカーでサンプルの大きさを決定し、もう一つのARマーカーで測定位置推定する関数
 
