@@ -124,8 +124,8 @@ class ArBase():
         marker =  [0] * variety_num # 初期化
         for i in range(len(marker)):
             marker[i] = aruco.drawMarker(p_dict, i, 75) # 75x75 px
-            output_file_name = output_path.joinpass('marker{}.png'.format(i))
-            cv2.imwrite(output_file_name, marker[i])
+            output_file_name = output_path.joinpath('marker{}.png'.format(i))
+            cv2.imwrite(str(output_file_name), marker[i])
 
     @staticmethod
     def ar_find_overay(image_file, posetime=2, image_save=False):
