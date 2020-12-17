@@ -152,9 +152,9 @@ class ArBase():
             corners, ids, rejectedImgPoints = aruco.detectMarkers(imgAR, p_dict) # 検出
             img_marked = aruco.drawDetectedMarkers(imgAR.copy(), corners, ids)   # 検出結果をオーバーレイ
             # print(corners)
-            # print(ids)
+            
             print('number of AR finds: ', len(ids))
-
+            print(ids)
 
             plt.figure(figsize=(6,6))
             plt.title(image_basename)
