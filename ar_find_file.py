@@ -228,7 +228,7 @@ class ArFind():
             print('No Detection')
             return None, None
 
-    def image_conversion(self,size=None,info =True, image_save=True, ar_cut_position='edge'):
+    def image_conversion(self,size=None, info=True, image_save=True, ar_cut_position='edge'):
         """ Function to cut out an image from 4 markers
         Args:
             size ([type], optional): [description]. Defaults to None.
